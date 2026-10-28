@@ -183,7 +183,11 @@ font-size: 30px;
 color: #21243D;
 line-height: 100%;
 letter-spacing: 0px;
+}
 
+.works_block img {
+    width: 246px;
+    border-radius: 6px;
 }
 
 .span1 {
@@ -218,6 +222,34 @@ line-height: 32px !important;
 letter-spacing: 0px;
 
 }
+
+.icons {
+    
+    
+    display: flex;
+    gap: 35px;
+    margin: 26px;
+    justify-content: center;
+
+}
+
+
+.copyright h3 {
+    font-family: Heebo, sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center; 
+
+
+}
+
+.contacts {
+    padding: 134px;
+}
+
+
 
 @media screen and (width: 425px) {
     main {
